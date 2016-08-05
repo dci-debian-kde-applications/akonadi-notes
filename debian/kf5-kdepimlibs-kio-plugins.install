@@ -1,0 +1,4 @@
+etc/xdg/kdepimlibs-kioslave.categories
+usr/lib/*/qt5/plugins/kf5/kio/
+usr/share/doc/HTML/en/kioslave5/
+usr/share/kservices5/*.protocol
