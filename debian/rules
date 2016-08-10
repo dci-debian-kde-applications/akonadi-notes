@@ -1,20 +1,6 @@
 #!/usr/bin/make -f
 
-DEB_HOST_ARCH:=$(shell dpkg-architecture -qDEB_HOST_ARCH)
-ifeq ($(DEB_HOST_ARCH),ia64)
-    dqk_link_with_as_needed := no
-endif
-
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
-
-override_dh_strip:
-	$(overridden_command) --dbgsym-migration='kdepimlibs-dbg (<= 4:15.12.1-1~~)'
-
-override_dh_makeshlibs:
-	$(overridden_command) -Xkcm_akonadicontact_actions.so -Xakonadi_serializer_socialfeeditem.so
-
-override_dh_shlibdeps:
-	$(overridden_command) -- -xkf5-kdepimlibs-kio-plugins
