@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: kdepimlibs
-Source: git://anongit.kde.org/kdepimlibs
-Comment: Numerous people, too many to count, have contributed to kdepimlibs as
+Upstream-Name: akonadi-notes
+Source: git://anongit.kde.org/akonadi-notes
+Comment: Numerous people, too many to count, have contributed to akonadi-notes as
  a whole. The KDE project tries to make an extensive list of people who
  contributed to KDE at http://www.kde.org/people/credits/
  .
@@ -9,142 +9,13 @@ Comment: Numerous people, too many to count, have contributed to kdepimlibs as
  Copyright: 1996-2015, The KDE project http://www.kde.org
 
 Files: *
-Copyright: 2010, Andras Mantia <andras@kdab.com>
-           2003-2005, Andreas Gungl <a.gungl@gmx.de>
-           2004, Bram Schoenmakers <bramschoenmakers@kde.nl>
-           2011, Christian Mollekopf <chrigi_1@fastmail.fm>
+Copyright: 2011, Christian Mollekopf <chrigi_1@fastmail.fm>
            2012, Christian Mollekopf <mollekopf@kolabsys.com>
-           2009, Constantin Berzan <exit3219@gmail.com>
-           2013, David Faure <faure@kde.org>
-           2009, David Jarvie <djarvie@kde.org>
-           2010, Felix Mauch <felix_mauch@web.de>
-           2009, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
-           2008, Jarosław Staniek <staniek@kde.org>
-           2010, KDAB
-           2009, Kevin Ottens <ervin@kde.org>
-           2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
-           2016, Laurent Montel <laurent.montel@kdab.com>
-           2012-2016, Laurent Montel <montel@kde.org>
-           2010, Leo Franchi <lfranchi@kde.org>
-           2001, Marc Mutz <mutz@kde.org>
-           2004, Mart Kelder <mart.kde@hccnet.nl>
-           2007, Robert Zwerus <arzie@dds.nl>
-           2009, Stephen Kelly <steveire@gmail.com>
-           2007-2010, Tobias Koenig <tokoe@kde.org>
-           2006-2010, Volker Krause <vkrause@kde.org>
-           2016, eyeOS S.L.U., a Telefonica company <sales@eyeos.com>
 License: LGPL-2+
 
-Files: COPYING.LIB
-       akonadi-mime/COPYING.LIB
-       akonadi-mime/src/commandbase.cpp
-       akonadi-mime/src/commandbase.h
-       akonadi-mime/src/emptytrashcommand.cpp
-       akonadi-mime/src/emptytrashcommand.h
-       akonadi-mime/src/markascommand.cpp
-       akonadi-mime/src/markascommand.h
-       akonadi-mime/src/movecommand.cpp
-       akonadi-mime/src/movecommand.h
-       akonadi-mime/src/movetotrashcommand.cpp
-       akonadi-mime/src/movetotrashcommand.h
-       akonadi-mime/src/removeduplicatesjob.cpp
-       akonadi-mime/src/removeduplicatesjob.h
-       akonadi-mime/src/util.cpp
-       akonadi-mime/src/util_p.h
-       akonadi-socialutils/autotests/image-provider-tests.cpp
-       akonadi-socialutils/autotests/image-provider-tests.h
-       akonadi-socialutils/src/imageprovider.cpp
-       akonadi-socialutils/src/imageprovider.h
-       akonadi-socialutils/src/serializer/akonadi_serializer_socialfeeditem.cpp
-       akonadi-socialutils/src/serializer/akonadi_serializer_socialfeeditem.h
-       akonadi-socialutils/src/socialfeeditem.cpp
-       akonadi-socialutils/src/socialfeeditem.h
-       akonadi-socialutils/src/socialfeeditem_p.h
-       akonadi-socialutils/src/socialnetworkattributes.cpp
-       akonadi-socialutils/src/socialnetworkattributes.h
-Copyright: 2008, Aaron Seigo <aseigo@kde.org>
-           2010, Andras Mantia <andras@kdab.com>
-           2012, Dan Vrátil <dvratil@redhat.com>
-           1991-1999, Free Software Foundation, Inc
-           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
-           2012, Martin Klapetek <martin.klapetek@gmail.com>
-License: LGPL-2.1+
-
-Files: akonadi-contact/src/editor/widgets/kwidgetlister.cpp
-       akonadi-contact/src/editor/widgets/kwidgetlister_p.h
-       kioslave/src/sieve/sieve.cpp
-       kioslave/src/sieve/sieve.h
-       kioslave/src/smtp/capabilities.cpp
-       kioslave/src/smtp/capabilities.h
-       kioslave/src/smtp/command.cpp
-       kioslave/src/smtp/command.h
-       kioslave/src/smtp/request.cpp
-       kioslave/src/smtp/request.h
-       kioslave/src/smtp/response.cpp
-       kioslave/src/smtp/response.h
-       kioslave/src/smtp/tests/interactivesmtpserver.cpp
-       kioslave/src/smtp/tests/interactivesmtpserver.h
-       kioslave/src/smtp/tests/requesttest.cpp
-       kioslave/src/smtp/tests/requesttest.h
-       kioslave/src/smtp/transactionstate.cpp
-       kioslave/src/smtp/transactionstate.h
-Copyright: 2000-2001, Alex Zepeda <jazepeda@pacbell.net>
-           2001, Hamish Rodda
-           2001-2004, Marc Mutz <mutz@kde.org>
-           2001, Michael Häckel <Michael@Haeckel.Net>
-           2014, Montel Laurent <montel@kde.org>
-License: GPL-2
-
 Files: COPYING.BSD
-       kioslave/src/pop3/pop3.cpp
-       kioslave/src/pop3/pop3.h
-       kioslave/src/smtp/smtp.cpp
-       kioslave/src/smtp/smtp.h
-Copyright: 2002, Aaron J. Seigo <aseigo@olympusproject.org>
-           1999-2001, Alex Zepeda <zipzippy@sonic.net>
-           2003, Marc Mutz <mutz@kde.org>
-           2001-2002, Michael Haeckel <haeckel@kde.org>
-           2001, Michael H�kel <Michael@Haeckel.Net>
+Copyright: No copyright claimed, just the license text
 License: BSD-2-clause
-
-Files: kioslave/src/nntp/CMakeLists.txt
-       kioslave/src/nntp/Mainpage.dox
-       kioslave/src/nntp/Messages.sh
-       kioslave/src/nntp/nntp.protocol
-       kioslave/src/nntp/nntps.protocol
-License: Expat
-Comment: No explicit license found, using license(s) from:
- kioslave/src/nntp/LICENSE
-
-Files: akonadi-contact/src/editor/addresseditor/iconnamecache.cpp
-       akonadi-contact/src/editor/addresseditor/iconnamecache_p.h
-       akonadi-mime/src/metatype.h
-Copyright: 2009, Thomas McGuire <mcguire@kde.org>
-License: LGPL-2+3+KDEeV
-
-Files: kioslave/src/ldap/kio_ldap.cpp
-       kioslave/src/ldap/kio_ldap.h
-       kioslave/src/nntp/LICENSE
-Copyright: 2004-2007, Szombathelyi György <gyurco@freemail.hu>
-License: Expat
-
-Files: kioslave/src/nntp/nntp.cpp
-       kioslave/src/nntp/nntp.h
-Copyright: 2005, Tim Way <tim@way.hrcoxmail.com>
-           2005, Volker Krause <vkrause@kde.org>
-           2000, Wolfram Diestel <wolfram@steloj.de>
-License: LGPL-2
-
-Files: kioslave/cmake/COPYING-CMAKE-SCRIPTS
-       kioslave/cmake/FindSasl2.cmake
-Copyright: 2006-2007, Laurent Montel <montel@kde.org>
-License: BSD-3-clause
-
-Files: akonadi-contact/src/editor/data/zone.tab
-Copyright: Not copyright claimed
-License: public-domain
- This file is in the public domain, so clarified as of
- 2009-05-17 by Arthur David Olson.
 
 Files: debian/*
 Copyright: 2007-2015, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -172,65 +43,6 @@ License: BSD-2-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-License: BSD-3-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- .
- 1. Redistributions of source code must retain the copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-License: Expat
- Permission is hereby granted, free of charge, to any person obtaining a copy
- of this software and associated documentation files (the "Software"), to deal
- in the Software without restriction, including without limitation the rights
- to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
- .
- The above copyright notice and this permission notice shall be included in
- all copies or substantial portions of the Software.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
- AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
- AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
- CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-License: GPL-2
- This program is free software; you can redistribute it and/or modify it
- under the terms of the GNU General Public License, version 2, as
- published by the Free Software Foundation.
- .
- This program is distributed in the hope that it will be useful, but
- WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
- .
- On Debian systems, the complete text of the GNU General Public License
- version 2 can be found in `/usr/share/common-licenses/GPL-2'.
-
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -248,24 +60,6 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General Public License
  version 2 can be found in `/usr/share/common-licenses/GPL-2'.
-
-License: LGPL-2
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License version 2 as published by the Free Software Foundation.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-  Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
 
 License: LGPL-2+
  This library is free software; you can redistribute it and/or modify it
@@ -285,44 +79,3 @@ License: LGPL-2+
  .
  On Debian systems, the complete text of the GNU Library General Public
  License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
-
-License: LGPL-2.1+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
- 02110-1301  USA
- .
- On Debian systems, the complete text of the GNU Lesser General Public
- License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
-
-License: LGPL-2+3+KDEeV
- This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Library General Public License as published
- by the Free Software Foundation; either version 2 of the License or
- ( at your option ) version 3 or, at the discretion of KDE e.V.
- ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in `/usr/share/common-licenses/LGPL-2',
- likewise, the complete text of the GNU Lesser General Public License version
- 3 can be found in `/usr/share/common-licenses/LGPL-3'.
