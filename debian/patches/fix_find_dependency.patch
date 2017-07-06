@@ -1,3 +1,10 @@
+Description: Fix CMake unknown command error
+ Unknown CMake command "find_dependency".
+Forwarded: https://bugs.kde.org/show_bug.cgi?id=382076
+Author: Scarlett Clark <sgclark@kde.org>
+Applied-Upstream: Not yet
+Last-Update: 2017-07-06
+
 diff --git a/KF5AkonadiNotesConfig.cmake.in b/KF5AkonadiNotesConfig.cmake.in
 index 00f8a22..9c55085 100644
 --- a/KF5AkonadiNotesConfig.cmake.in
