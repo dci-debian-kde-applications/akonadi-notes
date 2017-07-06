@@ -1,0 +1,9 @@
+diff --git a/KF5AkonadiNotesConfig.cmake.in b/KF5AkonadiNotesConfig.cmake.in
+index 00f8a22..9c55085 100644
+--- a/KF5AkonadiNotesConfig.cmake.in
++++ b/KF5AkonadiNotesConfig.cmake.in
+@@ -1,5 +1,6 @@
+ @PACKAGE_INIT@
+
++include(CMakeFindDependencyMacro)
+ find_dependency(KF5Mime "@KMIMELIB_VERSION@")
