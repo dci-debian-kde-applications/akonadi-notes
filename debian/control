@@ -76,8 +76,8 @@ Package: libkf5akonadinotes5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~), ${kde-l10n:all}
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~), ${kde-l10n:all}
 Description: Akonadi notes access library
  This library provides notes manipulation helpers using the
  Akonadi PIM data server.
