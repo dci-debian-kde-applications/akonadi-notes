@@ -1,4 +1,6 @@
-akonadi-notes (4:17.08.3-1) UNRELEASED; urgency=medium
+akonadi-notes (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * New revision
@@ -12,7 +14,7 @@ akonadi-notes (4:17.08.3-1) UNRELEASED; urgency=medium
   * Bump debhelper build-dep and compat to 10.
   * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Dec 2017 15:10:25 +0100
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:49:31 +0100
 
 akonadi-notes (4:17.08.0-1) experimental; urgency=medium
 
