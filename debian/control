@@ -25,7 +25,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-notes.git
 Package: libkf5akonadinotes-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:17.08.3~),
          libkf5akonadinotes5 (= ${binary:Version}),
          libkf5mime-dev (>= 17.08.3~),
